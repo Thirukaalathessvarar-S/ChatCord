@@ -44,7 +44,7 @@ Follow these steps to get a local copy of the project up and running:
 - **The system will notify when users join or leave the room.**
 
 ## Project structure
-ChatCord/ ├── public/ │ ├── css/ │ │ └── style.css # Styling for the frontend │ ├── js/ │ │ └── main.js # Client-side JavaScript for handling chat functionality │ └── index.html # Main HTML file for the chat interface ├── utils/ │ ├── users.js # Helper functions for managing users and rooms ├── views/ │ └── layout.ejs # Template for rendering views (if using EJS templating) ├── server.js # Main server file (Node.js + Express + Socket.io) ├── package.json # Lists dependencies and project metadata ├── package-lock.json # Exact version lock file for installed packages └── 
+![project-structure](https://github.com/user-attachments/assets/85d03ba9-bee2-4f73-a192-b658b57de64b)
 
 - public/: Contains the frontend assets such as CSS, JavaScript, and HTML files.
 - server.js: The main server file for handling routes and socket connections.
